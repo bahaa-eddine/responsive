@@ -1,0 +1,34 @@
+.navbar {
+  background-color: brown;
+}
+
+.btn-open {
+  background-color: brown;
+  padding: 10px;
+}
+
+.btn-open a {
+  color: white;
+}
+
+.nav-list {
+  padding: 10px;
+  display: flex;
+  justify-content: centre;
+  list-style: none;
+}
+
+.nav-list li {
+  padding: 10px 20px;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+}
+
+.nav-list li:hover {
+  background-color: gray;
+  transition: 0.9s;
+}
